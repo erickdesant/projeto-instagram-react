@@ -27,7 +27,6 @@ export default function Stories(){
         ]
 
 
-
     return (
         <div className="stories">
             {stories.map((story) => <Story nome = {story.nome} imagem = {story.imagem}/>)}
