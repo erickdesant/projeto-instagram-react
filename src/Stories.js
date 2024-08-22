@@ -24,6 +24,12 @@ export default function Stories(){
             nome:"filomoderna",
             imagem:"assets/img/filomoderna.svg"
         },
+        {
+            nome:"filomoderna",
+            imagem:"assets/img/filomoderna.svg"
+        },
+
+
         ]
 
 

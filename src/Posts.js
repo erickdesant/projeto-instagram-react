@@ -62,14 +62,7 @@ function Post({imagemAutor,nomeAutor,imagemPost,imagemCurtida,autorCurtida,numer
 
             <div className="fundo">
                 <div className="acoes">
-                    <div>
-                        <ion-icon name="heart-outline"></ion-icon>
-                        <ion-icon name="chatbubble-outline"></ion-icon>
-                        <ion-icon name="paper-plane-outline"></ion-icon>
-                    </div>
-                    <div>
-                        <ion-icon name="bookmark-outline"></ion-icon>
-                    </div>
+                    <Acoes/>
                 </div>
 
                 <div className="curtidas">
@@ -80,5 +73,20 @@ function Post({imagemAutor,nomeAutor,imagemPost,imagemCurtida,autorCurtida,numer
                 </div>
             </div>
         </div>
+    )
+}
+
+function Acoes(){
+    return (
+        <>
+        <div>
+            <ion-icon name="heart-outline"></ion-icon>
+            <ion-icon name="chatbubble-outline"></ion-icon>
+            <ion-icon name="paper-plane-outline"></ion-icon>
+        </div>
+        <div>
+            <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+        </>
     )
 }
